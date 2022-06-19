@@ -26,9 +26,9 @@ button {
 }
 .logo:hover {
   color: #ff5f5d;
-  letter-spacing: 0.8em;
+  letter-spacing: 1em;
   cursor: pointer;
-  font-size: 17px;
+  transform: scale(1);
 }
 header {
   margin: 10px auto;
@@ -45,13 +45,14 @@ header {
   padding: 0px 20px;
 }
 .navLinks li a {
+  display: inline-block;
   transition: all 0.5s ease 0s;
   opacity: 50%;
 }
 .navLinks li a:hover {
-  color: #72f2eb;
+  color: #ff5f5d;
   opacity: 100%;
-  font-size: 17px;
+  transform: scale(1.4);
 }
 button {
   padding: 9px 20px;
@@ -64,5 +65,5 @@ button {
 }
 button:hover {
   background-color: rgba(0, 136, 169, 0.5);
-  font-size: 15px;
+  transform: scale(1.4);
 }
