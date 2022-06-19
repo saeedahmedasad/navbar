@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@900&display=swap");
+/* Bebas neu */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #454545;
+}
+
+a,
+li,
+button {
+  font-family: "Overpass", sans-serif;
+  text-decoration: none;
+  color: #72f2eb;
+}
+.logo {
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 0.6em;
+  padding: 9px 20px;
+  color: #72f2eb;
+  background-color: #ff5f5d;
+  border-radius: 30px;
+  background-color: transparent;
+  transition: all 0.3s ease 0s;
+}
+.logo:hover {
+  color: #ff5f5d;
+  cursor: pointer;
+  font-size: 2rem;
+  align-items: center;
+}
+header {
+  margin: 10px auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navLinks {
+  list-style: none;
+}
+.navLinks li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.navLinks li a {
+  transition: all 0.3s ease 0s;
+}
+.navLinks li a:hover {
+  color: #ff5f5d;
+  font-size: 2rem;
+}
+button {
+  padding: 9px 20px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover {
+  background-color: rgba(0, 136, 169, 0.5);
+  font-size: 2rem;
+}
