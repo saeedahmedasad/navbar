@@ -29,7 +29,7 @@ button {
 .logo:hover {
   color: #ff5f5d;
   cursor: pointer;
-  font-size: 2rem;
+  transform: scale(1.5);
   align-items: center;
 }
 header {
@@ -41,17 +41,24 @@ header {
 }
 .navLinks {
   list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .navLinks li {
-  display: inline-block;
+  /* display: inline-block; */
   padding: 0px 20px;
 }
 .navLinks li a {
+  display: inline-block;
   transition: all 0.3s ease 0s;
+  background-color: transparent;
+  opacity: 50%;
 }
 .navLinks li a:hover {
   color: #ff5f5d;
-  font-size: 2rem;
+  opacity: 100;
+  transform: scale(1.5);
 }
 button {
   padding: 9px 20px;
@@ -59,9 +66,9 @@ button {
   border: none;
   border-radius: 30px;
   cursor: pointer;
-  transition: all 0.3s ease 0s;
+  transition: all 0.3s ease;
 }
 button:hover {
   background-color: rgba(0, 136, 169, 0.5);
-  font-size: 2rem;
+  transform: scale(1.5);
 }
